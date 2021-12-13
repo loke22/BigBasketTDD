@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testcases.searchTest">
+        <methods>
+          <include name="reportSetup"/>
+          <include name="Assert_Oil_Confirma"/>
+          <include name="launchBrowser"/>
+          <include name="Assert_Vegetables_Confirm"/>
+          <include name="Assert_Fruits_Confirm"/>
+          <include name="closeReportSetup"/>
+          <include name="closeSetup"/>
+        </methods>
+      </class> <!-- com.testcases.searchTest -->
+      <class name="com.testcases.BuyItemTest">
+        <methods>
+          <include name="Assert_myBasket_Confirm"/>
+          <include name="Assert_addItem_Confirm"/>
+          <include name="launchBrowser"/>
+          <include name="closeReportSetup"/>
+          <include name="closeSetup"/>
+          <include name="reportSetup"/>
+        </methods>
+      </class> <!-- com.testcases.BuyItemTest -->
+      <class name="com.testcases.viewOfferTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="reportSetup"/>
+          <include name="closeSetup"/>
+          <include name="closeReportSetup"/>
+          <include name="Assert_Order_Confirm"/>
+        </methods>
+      </class> <!-- com.testcases.viewOfferTest -->
+      <class name="com.testcases.changeLocationTest">
+        <methods>
+          <include name="reportSetup"/>
+          <include name="closeSetup"/>
+          <include name="launchBrowser"/>
+          <include name="closeReportSetup"/>
+          <include name="Assert_Location_Confirm"/>
+        </methods>
+      </class> <!-- com.testcases.changeLocationTest -->
+      <class name="com.testcases.dealsOfWeekTest">
+        <methods>
+          <include name="closeReportSetup"/>
+          <include name="Assert_alphabetically_Confirm"/>
+          <include name="Assert_RupeeHL_Confirm"/>
+          <include name="closeSetup"/>
+          <include name="Assert_priceLh_Confirm"/>
+          <include name="Assert_popularity_Confirm"/>
+          <include name="launchBrowser"/>
+          <include name="reportSetup"/>
+          <include name="Assert_priceHl_Confirm"/>
+        </methods>
+      </class> <!-- com.testcases.dealsOfWeekTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
